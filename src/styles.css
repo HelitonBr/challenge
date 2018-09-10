@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/css/block/login/cardLogin.css';
+
+@import './assets/css/block/login/cardLoginLogo.css';
+
+@import './assets/css/block/login/cardLoginForm.css';
+
+@import './assets/css/block/login/cardLoginButton.css';
+
+@import './assets/css/block/fundo/fundo.css';
