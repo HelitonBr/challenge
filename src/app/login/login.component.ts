@@ -8,12 +8,11 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
- 
+
   formulario: FormGroup;
   formBuilder: FormBuilder;
 
-  constructor( private _formBuilder: FormBuilder ) 
-              { this.formBuilder = _formBuilder;}
+  constructor(private _formBuilder: FormBuilder) { this.formBuilder = _formBuilder; }
 
   ngOnInit() {
     this.formulario = this.formBuilder.group({
@@ -21,6 +20,5 @@ export class LoginComponent implements OnInit {
       senha: [null, Validators.required]
     })
   }
-  
 
 }

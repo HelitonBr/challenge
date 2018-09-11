@@ -1,8 +1,6 @@
 @import '~@angular/material/theming';
 // @import '~@covalent/core/theming/all-theme';
 
-// Define a custom typography config that overrides the font-family
-// or any typography level.
 $typography: mat-typography-config(
   $font-family: 'Roboto, monospace',
   $headline: mat-typography-level(32px, 48px, 700)
